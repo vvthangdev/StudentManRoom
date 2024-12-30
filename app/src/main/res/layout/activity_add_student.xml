@@ -9,20 +9,21 @@
         android:id="@+id/edit_text_student_name"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#CACACA"
         android:hint="Tên học sinh" />
 
     <EditText
         android:id="@+id/edit_text_student_id"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#CACACA"
         android:hint="Mã học sinh" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#2196F3"
+        android:background="@drawable/bg_btn_save"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         android:text="Lưu" />
 </LinearLayout>

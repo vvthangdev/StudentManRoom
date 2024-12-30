@@ -5,10 +5,11 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_add_student"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn_save"
         android:text="Thêm học sinh" />
 
     <ListView
